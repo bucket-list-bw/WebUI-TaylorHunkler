@@ -267,7 +267,8 @@ body {
   background: grey;
 }
 .container {
-  width: 880px;
+  max-width: 1200px;
+  widows: 100%;
   margin: 0 auto;
 }
 header nav {
@@ -343,7 +344,7 @@ footer {
   color: rgba(10, 7, 7, 0.425);
 }
 .bottombox {
-  border: 1px solid black;
+  border: 1px solid rd;
   background-color: grey;
   width: 100%;
   padding: 5%;
@@ -351,4 +352,38 @@ footer {
   color: rgba(10, 7, 7, 0.425);
   font-family: 'Nunito Sans', sans-serif;
   font-size: 200%;
+}
+.about-parent-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+@media (max-width: 500px) {
+  .about-parent-box {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+}
+.about-parent-box .box {
+  background-color: grey;
+  width: 48%;
+  padding: 2%;
+  margin-bottom: 2%;
+  color: rgba(10, 7, 7, 0.425);
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 200%;
+}
+.about-parent-box .boxI {
+  background-color: grey;
+  width: 48%;
+  padding: 2%;
+  margin-bottom: 2%;
+  color: rgba(10, 7, 7, 0.425);
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 200%;
+}
+.imgHead {
+  width: 80%;
+  height: auto;
 }
