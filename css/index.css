@@ -126,137 +126,12 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 62.5rem;
-  font: inherit;
-  vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-  display: block;
-}
-body {
-  line-height: 1;
-}
-ol,
-ul {
-  list-style: none;
-}
-blockquote,
-q {
-  quotes: none;
-}
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: '';
-  content: none;
-}
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
 /* Set every element's box-sizing to border-box */
 * {
   box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
 }
 .textCenter {
   text-align: center;
@@ -281,7 +156,7 @@ header nav {
   margin-bottom: 6%;
   padding: 2%;
   background-color: #c7f0db;
-  font-size: 200%;
+  font-size: 3.2rem;
   border-bottom: 1px solid black;
   padding: 3% 0;
 }
@@ -318,7 +193,7 @@ header nav a:hover {
   margin-bottom: 2%;
   color: #6c7b95;
   font-family: 'Nunito Sans', sans-serif;
-  font-size: 1.8rem;
+  font-size: 2.8rem;
 }
 @media (max-width: 500px) {
   .parent-box .box {
@@ -330,20 +205,20 @@ header nav a:hover {
 }
 @media (max-width: 800px) {
   .parent-box .box {
-    font-size: 1.3rem;
+    font-size: 2.1rem;
   }
 }
 .parent-box .box .list {
   margin-top: 8%;
 }
 h1 {
-  font-size: 200%;
+  font-size: 5.8rem;
   margin-bottom: 5%;
 }
 .bottomboxes {
   font-family: 'Nunito Sans', sans-serif;
   color: #6c7b95;
-  padding: 5%;
+  padding: 3%;
 }
 .bottomboxes .box {
   text-align: center;
@@ -370,7 +245,69 @@ footer {
   margin-bottom: 2%;
   color: #6c7b95;
   font-family: 'Nunito Sans', sans-serif;
-  font-size: 200%;
+  font-size: 3rem;
+}
+.bottombox {
+  display: flex;
+  flex-wrap: wrap;
+}
+.bottombox .bottomdiv {
+  border: 1px solid black;
+  width: 50%;
+  height: 27rem;
+  text-align: center;
+  padding-top: 0.7rem;
+  background: 'Nunito Sans', sans-serif;
+}
+.imgbtm {
+  width: 30%;
+  height: 14rem;
+  margin-top: 5%;
+}
+@media (max-width: 800px) {
+  .stay {
+    width: 85%;
+    height: 13rem;
+  }
+}
+@media (max-width: 500px) {
+  .stay {
+    width: 90%;
+    height: 20rem;
+  }
+}
+@media (max-width: 500px) {
+  .go {
+    display: none;
+  }
+}
+@media (max-width: 800px) {
+  .gotab {
+    display: none;
+  }
+}
+.signup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.button {
+  background-color: #6c7b95;
+  font-size: 2.5rem;
+  width: 50%;
+  height: 5rem;
+  font-weight: 600;
+  border-radius: 4.5rem;
+}
+.button:hover {
+  background: rgba(255, 255, 255, 0.486);
+  color: #464159;
+}
+.signuphead {
+  text-align: center;
+  color: #6c7b95;
+  font-size: 2rem;
+  margin-bottom: 2%;
 }
 .about-parent-box {
   display: flex;
@@ -391,12 +328,12 @@ footer {
   margin-bottom: 2%;
   color: #6c7b95;
   font-family: 'Nunito Sans', sans-serif;
-  font-size: 1.5rem;
+  font-size: 3rem;
 }
 @media (max-width: 800px) {
   .about-parent-box .abox {
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 2rem;
   }
 }
 .boxI {
@@ -404,73 +341,8 @@ footer {
   width: 48%;
   padding: 2%;
   margin-bottom: 2%;
-  color: #6c7b95;
-  font-family: 'Nunito Sans', sans-serif;
-  font-size: 200%;
 }
 .imgHead {
   width: 80%;
   height: auto;
-}
-.bottombox {
-  display: flex;
-  flex-wrap: wrap;
-}
-.bottombox .bottomdiv {
-  border: 1px solid black;
-  width: 50%;
-  height: 17rem;
-  text-align: center;
-  padding-top: 1%;
-  background: 'Nunito Sans', sans-serif;
-}
-.imgbtm {
-  width: 30%;
-  height: 8rem;
-  margin-top: 5%;
-}
-@media (max-width: 800px) {
-  .stay {
-    width: 80%;
-    height: 8.3rem;
-  }
-}
-@media (max-width: 500px) {
-  .stay {
-    width: 90%;
-    height: 12rem;
-  }
-}
-@media (max-width: 500px) {
-  .go {
-    display: none;
-  }
-}
-@media (max-width: 800px) {
-  .gotab {
-    display: none;
-  }
-}
-.signup {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.button {
-  background-color: #6c7b95;
-  font-size: 1.5rem;
-  width: 50%;
-  height: 2.5rem;
-  font-weight: 600;
-  border-radius: 5rem;
-}
-.button:hover {
-  background: rgba(255, 255, 255, 0.486);
-  color: #464159;
-}
-.signuphead {
-  text-align: center;
-  color: #6c7b95;
-  font-size: 2rem;
-  margin-bottom: 2%;
 }
