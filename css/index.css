@@ -264,25 +264,29 @@ table {
 html,
 body {
   height: 100%;
-  background: #FF9E1B;
+  background: #c7f0db;
 }
 .container {
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
 }
+h1,
+h2 {
+  color: #464159;
+}
 header nav {
   display: flex;
   justify-content: space-around;
   margin-bottom: 8%;
   padding: 2%;
-  background-color: #FF9E1B;
+  background-color: #c7f0db;
   font-size: 200%;
   border-bottom: 1px solid black;
   padding: 3% 0;
 }
 header nav a {
-  color: black;
+  color: #464159;
 }
 header nav a:hover {
   background: white ;
@@ -308,11 +312,11 @@ header nav a:hover {
   }
 }
 .parent-box .box {
-  background-color: #FF9E1B;
+  background-color: #c7f0db;
   width: 48%;
   padding: 5%;
   margin-bottom: 2%;
-  color: rgba(0, 0, 0, 0.76);
+  color: #6c7b95;
   font-family: 'Nunito Sans', sans-serif;
   font-size: 200%;
 }
@@ -322,13 +326,13 @@ h1 {
 }
 .bottomboxes {
   font-family: 'Nunito Sans', sans-serif;
-  color: rgba(0, 0, 0, 0.76);
+  color: #6c7b95;
   border-top: 2px solid black;
   padding: 5%;
 }
 .bottomboxes .box {
   text-align: center;
-  background: #FF9E1B;
+  background: #c7f0db;
 }
 .img {
   width: 100%;
@@ -341,15 +345,15 @@ footer {
   text-align: center;
   padding: 5%;
   margin: 5% 35%;
-  color: rgba(0, 0, 0, 0.76);
+  color: #6c7b95;
 }
 .bottombox {
   border: 1px solid rd;
-  background-color: #FF9E1B;
+  background-color: #c7f0db;
   width: 100%;
-  padding: 5%;
+  padding: 1%;
   margin-bottom: 2%;
-  color: rgba(0, 0, 0, 0.76);
+  color: #6c7b95;
   font-family: 'Nunito Sans', sans-serif;
   font-size: 200%;
 }
@@ -366,20 +370,20 @@ footer {
   }
 }
 .about-parent-box .box {
-  background-color: #FF9E1B;
+  background-color: #c7f0db;
   width: 48%;
   padding: 2%;
   margin-bottom: 2%;
-  color: rgba(0, 0, 0, 0.76);
+  color: #6c7b95;
   font-family: 'Nunito Sans', sans-serif;
   font-size: 200%;
 }
 .about-parent-box .boxI {
-  background-color: #FF9E1B;
+  background-color: #c7f0db;
   width: 48%;
   padding: 2%;
   margin-bottom: 2%;
-  color: rgba(0, 0, 0, 0.76);
+  color: #6c7b95;
   font-family: 'Nunito Sans', sans-serif;
   font-size: 200%;
 }
@@ -394,8 +398,10 @@ footer {
 .bottombox .bottomdiv {
   border: 1px solid black;
   width: 50%;
-  height: 20rem;
+  height: 17rem;
   text-align: center;
+  padding-top: 1%;
+  background: 'Nunito Sans', sans-serif;
 }
 .imgbtm {
   width: 30%;
@@ -406,11 +412,24 @@ footer {
   .stay {
     width: 80%;
     height: 12rem;
-    margin-top: 20%;
   }
 }
 @media (max-width: 500px) {
   .go {
     display: none;
   }
+}
+.signup {
+  display: flex;
+  justify-content: center;
+}
+.button {
+  background-color: #6c7b95;
+  font-size: 1rem;
+  width: 50%;
+  height: 2rem;
+}
+.button:hover {
+  background: white ;
+  color: black;
 }
