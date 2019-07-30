@@ -22,13 +22,21 @@
 	
 	padding: 5%;
 	margin-bottom: 2%;
-   
+   	@media (max-width: 500px) {
+    display: flex;
+flex-direction:column;
+align-content: center;
+
+}
    
    color:@font-color-main;
 	   font-family: @text-font;
 	   font-size: 200%;
 
-	   
+       
+    .list{
+        margin-top: 8%;
+    }
  
   }	
   
@@ -54,7 +62,7 @@ h1{
 		
 		font-family: @text-font;
 		color:@font-color-main;
-		border-top: 2px solid black;
+	
 		padding: 5%;
 		
 		.box{
@@ -120,7 +128,7 @@ h1{
 	
  
 
-.box {
+.abox {
 	background-color: @main-font;
 	
 	width: 48%;
@@ -133,6 +141,7 @@ h1{
 	   font-family: @text-font;
        font-size: 200%;
       
+    }
 
 	   
  
@@ -155,19 +164,22 @@ h1{
    color:@font-color-main;
 	   font-family: @text-font;
        font-size: 200%;
+    
        
 
-	   
+	 
  
   }	
 
 
 
-}
+
 .imgHead {
-		
+
     width:80%;
     height:auto;
+      
+   
 
   
   }
@@ -205,12 +217,16 @@ h1{
 
   .stay{
 
-   @media (max-width: 500px) {
+   @media (max-width: 800px) {
     width:80%;
+    height:8.3rem;
+    
+}
+@media (max-width: 500px) {
+    width:90%;
     height:12rem;
     ;
 }
-
   }
     .go{
         @media (max-width: 500px) {
@@ -219,6 +235,15 @@ h1{
     
         
     }
+    
+    .gotab{
+        @media (max-width: 800px) {
+           display: none;
+        }
+    
+        
+    }
+    
 
     .signup{
        display: flex;

@@ -320,6 +320,16 @@ header nav a:hover {
   font-family: 'Nunito Sans', sans-serif;
   font-size: 200%;
 }
+@media (max-width: 500px) {
+  .parent-box .box {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+}
+.parent-box .box .list {
+  margin-top: 8%;
+}
 h1 {
   font-size: 200%;
   margin-bottom: 5%;
@@ -327,7 +337,6 @@ h1 {
 .bottomboxes {
   font-family: 'Nunito Sans', sans-serif;
   color: #6c7b95;
-  border-top: 2px solid black;
   padding: 5%;
 }
 .bottomboxes .box {
@@ -369,7 +378,7 @@ footer {
     align-content: center;
   }
 }
-.about-parent-box .box {
+.about-parent-box .abox {
   background-color: #c7f0db;
   width: 48%;
   padding: 2%;
@@ -378,7 +387,7 @@ footer {
   font-family: 'Nunito Sans', sans-serif;
   font-size: 200%;
 }
-.about-parent-box .boxI {
+.boxI {
   background-color: #c7f0db;
   width: 48%;
   padding: 2%;
@@ -408,14 +417,25 @@ footer {
   height: 8rem;
   margin-top: 5%;
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .stay {
     width: 80%;
+    height: 8.3rem;
+  }
+}
+@media (max-width: 500px) {
+  .stay {
+    width: 90%;
     height: 12rem;
   }
 }
 @media (max-width: 500px) {
   .go {
+    display: none;
+  }
+}
+@media (max-width: 800px) {
+  .gotab {
     display: none;
   }
 }
