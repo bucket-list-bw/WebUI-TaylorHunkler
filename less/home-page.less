@@ -2,12 +2,14 @@
 .parent-box{
 	display:flex;
 	flex-wrap: wrap;
-	justify-content:space-between;
+    justify-content:space-between;
+    
 	
-	@media (max-width: 500px) {
+	@media @phone {
 		display: flex;
 	flex-direction:column;
-	align-content: center;
+    align-content: center;
+    
 	}
 
 
@@ -17,21 +19,24 @@
 
 .box {
 	background-color: @main-font;
-	
 	width: 48%;
-	
-	padding: 5%;
+	padding: 2%;
 	margin-bottom: 2%;
-   	@media (max-width: 500px) {
+   	@media @phone {
     display: flex;
-flex-direction:column;
-align-content: center;
+    flex-direction:column;
+    align-content: center;
+    width:80%;
+}
+    @media @tablet {
+ 
+    font-size: 2.1rem;
 
 }
    
    color:@font-color-main;
 	   font-family: @text-font;
-	   font-size: 200%;
+	   font-size: 2.8rem;
 
        
     .list{
@@ -44,7 +49,7 @@ align-content: center;
 
 }
 h1{
-	font-size: 200%;
+	font-size: 5.8rem;
 	margin-bottom: 5%;
 	
 }
@@ -63,7 +68,7 @@ h1{
 		font-family: @text-font;
 		color:@font-color-main;
 	
-		padding: 5%;
+		padding: 3%;
 		
 		.box{
 		.textCenter;
@@ -84,7 +89,6 @@ h1{
 	  footer {
 		 .textCenter;
 		  padding: 5%;
-		 
 		  margin:5% 35%;
 		  color:@font-color-main;
 	  }
@@ -93,96 +97,18 @@ h1{
          
         border: 1px solid rd;
         background-color: @main-font;
-        
         width: 100%;
-        
         padding: 1%;
         margin-bottom: 2%;
-       
-       
-       color:@font-color-main;
-           font-family: @text-font;
-           font-size: 200%;
+        color:@font-color-main;
+        font-family: @text-font;
+        font-size: 3rem;
     
            
      
       }	
       
 
-      
-.about-parent-box{
-	display:flex;
-	flex-wrap: wrap;
-    justify-content:space-between;
-   
-	
-	@media (max-width: 500px) {
-		display: flex;
-	flex-direction:column;
-    align-content: center;
-    
-	}
-
-
-
-	
- 
-
-.abox {
-	background-color: @main-font;
-	
-	width: 48%;
-	
-	padding: 2%;
-	margin-bottom: 2%;
-   
-   
-   color:@font-color-main;
-	   font-family: @text-font;
-       font-size: 200%;
-      
-    }
-
-	   
- 
-  }	
-  
-	
-
-
-
-
-.boxI {
-	background-color: @main-font;
-	
-	width: 48%;
-	
-	padding: 2%;
-	margin-bottom: 2%;
-   
-   
-   color:@font-color-main;
-	   font-family: @text-font;
-       font-size: 200%;
-    
-       
-
-	 
- 
-  }	
-
-
-
-
-.imgHead {
-
-    width:80%;
-    height:auto;
-      
-   
-
-  
-  }
   
 
   .bottombox{
@@ -196,9 +122,9 @@ h1{
     
       border: 1px solid black;
       width: 50%;
-      height: 17rem;
+      height: 27rem;
       text-align:center;
-      padding-top: 1%;
+      padding-top: .7rem;
       background: @text-font;
   
 
@@ -209,27 +135,26 @@ h1{
 
    .imgbtm {
       width:30%;
-      height: 8rem;
-       
-       margin-top: 5%;
+      height: 14rem;
+     margin-top: 5%;
 
    }
 
   .stay{
 
-   @media (max-width: 800px) {
-    width:80%;
-    height:8.3rem;
+   @media @tablet {
+    width:85%;
+    height:13rem;
     
 }
-@media (max-width: 500px) {
+@media @phone {
     width:90%;
-    height:12rem;
+    height:20rem;
     ;
 }
   }
     .go{
-        @media (max-width: 500px) {
+        @media @phone {
            display: none;
         }
     
@@ -237,7 +162,7 @@ h1{
     }
     
     .gotab{
-        @media (max-width: 800px) {
+        @media @tablet {
            display: none;
         }
     
@@ -247,16 +172,18 @@ h1{
 
     .signup{
        display: flex;
-       justify-content: center;
+        flex-direction: column;
+       align-items: center;
        
+      
     }
     .button{
         background-color:#6c7b95; 
-        font-size: 1.2rem;
+        font-size: 2.5rem;
         width: 50%;
-        height: 2.5rem;
+        height: 5rem;
         font-weight: 600;
-        border-radius: 5rem;
+        border-radius: 4.5rem;
      &:hover{
         background:rgba(255, 255, 255, 0.486)  ;
         color: @font-color;
@@ -264,3 +191,63 @@ h1{
     }
         
     }
+
+    .signuphead{
+        text-align: center;
+        color:@font-color-main;
+        font-size: 2rem;
+        margin-bottom: 2%;
+    }
+     
+
+
+    //About page
+        
+.about-parent-box{
+	display:flex;
+	flex-wrap: wrap;
+    justify-content:space-between;
+   
+	
+	@media @phone {
+		display: flex;
+	flex-direction:column;
+    align-content: center;
+    
+	}
+
+ .abox {
+	background-color: @main-font;
+	width: 48%;
+	padding: 2%;
+	margin-bottom: 2%;
+   
+    color:@font-color-main;
+	   font-family: @text-font;
+       font-size: 3rem;
+
+       @media @tablet {
+        text-align: center;
+        font-size: 2rem;
+    
+    }
+    }
+    }
+
+.boxI {
+	background-color: @main-font;
+	width: 48%;
+	padding: 2%;
+	margin-bottom: 2%;
+   }	
+
+
+
+
+.imgHead {
+
+    width:80%;
+    height:auto;
+      
+}
+  
