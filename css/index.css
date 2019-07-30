@@ -218,7 +218,7 @@ h1 {
 .bottomboxes {
   font-family: 'Nunito Sans', sans-serif;
   color: #6c7b95;
-  padding: 3%;
+  padding: 1%;
 }
 .bottomboxes .box {
   text-align: center;
@@ -306,7 +306,7 @@ footer {
 .signuphead {
   text-align: center;
   color: #6c7b95;
-  font-size: 2rem;
+  font-size: 2.6rem;
   margin-bottom: 2%;
 }
 .about-parent-box {
