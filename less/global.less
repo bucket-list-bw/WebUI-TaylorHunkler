@@ -19,7 +19,7 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
+	font-size: 62.5rem;
 	font: inherit;
 	vertical-align: baseline;
 }
@@ -53,9 +53,9 @@ table {
 }
 @text-font: 'Nunito Sans', sans-serif;
 @nav-font: 'Permanent Marker', cursive;
-@main-font: #c7f0db;
-@font-color:#464159;
-@font-color-main:#6c7b95;
+@main-font: #c7f0db; // background
+@font-color:#464159; //nav and headers 
+@font-color-main:#6c7b95; // p
 
 .space(){
 	justify-content: space-around;
@@ -78,5 +78,5 @@ html, body {
 	
 }
 h1, h2 {
-	color: #464159;
+	color: @font-color;
 }

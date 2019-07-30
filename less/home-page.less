@@ -105,12 +105,14 @@ h1{
 .about-parent-box{
 	display:flex;
 	flex-wrap: wrap;
-	justify-content:space-between;
+    justify-content:space-between;
+   
 	
 	@media (max-width: 500px) {
 		display: flex;
 	flex-direction:column;
-	align-content: center;
+    align-content: center;
+    
 	}
 
 
@@ -225,12 +227,14 @@ h1{
     }
     .button{
         background-color:#6c7b95; 
-        font-size: 1rem;
-     width: 50%;
-     height: 2rem;
+        font-size: 1.2rem;
+        width: 50%;
+        height: 2.5rem;
+        font-weight: 600;
+        border-radius: 5rem;
      &:hover{
-        background:white ;
-        color: black;
+        background:rgba(255, 255, 255, 0.486)  ;
+        color: @font-color;
 
     }
         

@@ -214,7 +214,7 @@ video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
+  font-size: 62.5rem;
   font: inherit;
   vertical-align: baseline;
 }
@@ -278,7 +278,7 @@ h2 {
 header nav {
   display: flex;
   justify-content: space-around;
-  margin-bottom: 8%;
+  margin-bottom: 6%;
   padding: 2%;
   background-color: #c7f0db;
   font-size: 200%;
@@ -289,7 +289,7 @@ header nav a {
   color: #464159;
 }
 header nav a:hover {
-  background: white ;
+  background: rgba(255, 255, 255, 0.486);
   color: black;
 }
 @media (max-width: 500px) {
@@ -425,11 +425,13 @@ footer {
 }
 .button {
   background-color: #6c7b95;
-  font-size: 1rem;
+  font-size: 1.2rem;
   width: 50%;
-  height: 2rem;
+  height: 2.5rem;
+  font-weight: 600;
+  border-radius: 5rem;
 }
 .button:hover {
-  background: white ;
-  color: black;
+  background: rgba(255, 255, 255, 0.486);
+  color: #464159;
 }
