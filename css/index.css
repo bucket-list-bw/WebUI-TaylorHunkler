@@ -264,11 +264,11 @@ table {
 html,
 body {
   height: 100%;
-  background: grey;
+  background: #FF9E1B;
 }
 .container {
   max-width: 1200px;
-  widows: 100%;
+  width: 100%;
   margin: 0 auto;
 }
 header nav {
@@ -276,13 +276,13 @@ header nav {
   justify-content: space-around;
   margin-bottom: 8%;
   padding: 2%;
-  background-color: grey;
+  background-color: #FF9E1B;
   font-size: 200%;
   border-bottom: 1px solid black;
   padding: 3% 0;
 }
 header nav a {
-  color: rgba(238, 238, 238, 0.897);
+  color: black;
 }
 header nav a:hover {
   background: white ;
@@ -308,11 +308,11 @@ header nav a:hover {
   }
 }
 .parent-box .box {
-  background-color: grey;
+  background-color: #FF9E1B;
   width: 48%;
   padding: 5%;
   margin-bottom: 2%;
-  color: rgba(10, 7, 7, 0.425);
+  color: rgba(0, 0, 0, 0.76);
   font-family: 'Nunito Sans', sans-serif;
   font-size: 200%;
 }
@@ -322,13 +322,13 @@ h1 {
 }
 .bottomboxes {
   font-family: 'Nunito Sans', sans-serif;
-  color: rgba(10, 7, 7, 0.425);
+  color: rgba(0, 0, 0, 0.76);
   border-top: 2px solid black;
   padding: 5%;
 }
 .bottomboxes .box {
   text-align: center;
-  background: grey;
+  background: #FF9E1B;
 }
 .img {
   width: 100%;
@@ -341,15 +341,15 @@ footer {
   text-align: center;
   padding: 5%;
   margin: 5% 35%;
-  color: rgba(10, 7, 7, 0.425);
+  color: rgba(0, 0, 0, 0.76);
 }
 .bottombox {
   border: 1px solid rd;
-  background-color: grey;
+  background-color: #FF9E1B;
   width: 100%;
   padding: 5%;
   margin-bottom: 2%;
-  color: rgba(10, 7, 7, 0.425);
+  color: rgba(0, 0, 0, 0.76);
   font-family: 'Nunito Sans', sans-serif;
   font-size: 200%;
 }
@@ -366,24 +366,51 @@ footer {
   }
 }
 .about-parent-box .box {
-  background-color: grey;
+  background-color: #FF9E1B;
   width: 48%;
   padding: 2%;
   margin-bottom: 2%;
-  color: rgba(10, 7, 7, 0.425);
+  color: rgba(0, 0, 0, 0.76);
   font-family: 'Nunito Sans', sans-serif;
   font-size: 200%;
 }
 .about-parent-box .boxI {
-  background-color: grey;
+  background-color: #FF9E1B;
   width: 48%;
   padding: 2%;
   margin-bottom: 2%;
-  color: rgba(10, 7, 7, 0.425);
+  color: rgba(0, 0, 0, 0.76);
   font-family: 'Nunito Sans', sans-serif;
   font-size: 200%;
 }
 .imgHead {
   width: 80%;
   height: auto;
+}
+.bottombox {
+  display: flex;
+  flex-wrap: wrap;
+}
+.bottombox .bottomdiv {
+  border: 1px solid black;
+  width: 50%;
+  height: 20rem;
+  text-align: center;
+}
+.imgbtm {
+  width: 30%;
+  height: 8rem;
+  margin-top: 5%;
+}
+@media (max-width: 500px) {
+  .stay {
+    width: 80%;
+    height: 12rem;
+    margin-top: 20%;
+  }
+}
+@media (max-width: 500px) {
+  .go {
+    display: none;
+  }
 }
