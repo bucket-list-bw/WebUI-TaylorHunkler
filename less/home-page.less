@@ -7,7 +7,8 @@
 	@media (max-width: 500px) {
 		display: flex;
 	flex-direction:column;
-	align-content: center;
+    align-content: center;
+    
 	}
 
 
@@ -17,21 +18,24 @@
 
 .box {
 	background-color: @main-font;
-	
 	width: 48%;
-	
-	padding: 5%;
+	padding: 2%;
 	margin-bottom: 2%;
    	@media (max-width: 500px) {
     display: flex;
-flex-direction:column;
-align-content: center;
+    flex-direction:column;
+    align-content: center;
+    width:80%;
+}
+    @media (max-width: 800px) {
+ 
+    font-size: 1.3rem;
 
 }
    
    color:@font-color-main;
 	   font-family: @text-font;
-	   font-size: 200%;
+	   font-size: 1.8rem;
 
        
     .list{
@@ -139,13 +143,22 @@ h1{
    
    color:@font-color-main;
 	   font-family: @text-font;
-       font-size: 200%;
+       font-size: 1.5rem;
+
+       @media (max-width: 800px) {
+        text-align: center;
+        font-size: 1.2rem;
+    
+    }
       
+      
+    
+	}
     }
 
 	   
  
-  }	
+  
   
 	
 
@@ -247,12 +260,14 @@ h1{
 
     .signup{
        display: flex;
-       justify-content: center;
+        flex-direction: column;
+       align-items: center;
        
+      
     }
     .button{
         background-color:#6c7b95; 
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         width: 50%;
         height: 2.5rem;
         font-weight: 600;
@@ -264,3 +279,11 @@ h1{
     }
         
     }
+
+    .signuphead{
+        text-align: center;
+        color:@font-color-main;
+        font-size: 2rem;
+        margin-bottom: 2%;
+    }
+     

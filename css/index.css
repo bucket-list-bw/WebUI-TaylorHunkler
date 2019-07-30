@@ -296,7 +296,7 @@ header nav a:hover {
   header nav {
     display: flex;
     flex-direction: column;
-    text-align: center;
+    align-items: center;
   }
 }
 .parent-box {
@@ -314,17 +314,23 @@ header nav a:hover {
 .parent-box .box {
   background-color: #c7f0db;
   width: 48%;
-  padding: 5%;
+  padding: 2%;
   margin-bottom: 2%;
   color: #6c7b95;
   font-family: 'Nunito Sans', sans-serif;
-  font-size: 200%;
+  font-size: 1.8rem;
 }
 @media (max-width: 500px) {
   .parent-box .box {
     display: flex;
     flex-direction: column;
     align-content: center;
+    width: 80%;
+  }
+}
+@media (max-width: 800px) {
+  .parent-box .box {
+    font-size: 1.3rem;
   }
 }
 .parent-box .box .list {
@@ -385,7 +391,13 @@ footer {
   margin-bottom: 2%;
   color: #6c7b95;
   font-family: 'Nunito Sans', sans-serif;
-  font-size: 200%;
+  font-size: 1.5rem;
+}
+@media (max-width: 800px) {
+  .about-parent-box .abox {
+    text-align: center;
+    font-size: 1.2rem;
+  }
 }
 .boxI {
   background-color: #c7f0db;
@@ -441,11 +453,12 @@ footer {
 }
 .signup {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 .button {
   background-color: #6c7b95;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   width: 50%;
   height: 2.5rem;
   font-weight: 600;
@@ -454,4 +467,10 @@ footer {
 .button:hover {
   background: rgba(255, 255, 255, 0.486);
   color: #464159;
+}
+.signuphead {
+  text-align: center;
+  color: #6c7b95;
+  font-size: 2rem;
+  margin-bottom: 2%;
 }
