@@ -153,8 +153,7 @@ h2 {
 header nav {
   display: flex;
   justify-content: space-around;
-  margin-bottom: 6%;
-  padding: 2%;
+  margin-bottom: 5%;
   background-color: #c7f0db;
   font-size: 3.2rem;
   border-bottom: 1px solid black;
@@ -325,13 +324,18 @@ h2 {
   text-align: center;
   color: #6c7b95;
   font-size: 2.6rem;
-  margin-bottom: 2%;
+  margin-bottom: 4rem;
 }
 .team {
   font-size: 8rem;
   text-align: center;
   margin-bottom: 5rem;
   color: #464159;
+}
+@media (max-width: 500px) {
+  .team {
+    margin-bottom: 0rem;
+  }
 }
 .about-parent-box {
   display: flex;
@@ -345,6 +349,8 @@ h2 {
     display: flex;
     flex-direction: column;
     align-content: center;
+    margin-left: 3rem;
+    margin-right: 3rem;
   }
 }
 .about-parent-box .abox {
@@ -377,6 +383,7 @@ h2 {
     display: flex;
     flex-direction: column;
     align-content: center;
+    border-bottom: 1px solid black;
     width: 100%;
   }
 }
