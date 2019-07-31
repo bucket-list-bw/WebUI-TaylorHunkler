@@ -220,6 +220,10 @@ h1 {
     text-align: center;
   }
 }
+.img {
+  width: 100%;
+  height: auto;
+}
 .bottomboxes {
   font-family: 'Nunito Sans', sans-serif;
   color: #6c7b95;
@@ -235,18 +239,8 @@ h1 {
   text-align: center;
   background: #c7f0db;
 }
-.img {
-  width: 100%;
-  height: auto;
-}
 h2 {
   margin-bottom: 3%;
-}
-footer {
-  text-align: center;
-  padding: 5%;
-  margin: 5% 35%;
-  color: #6c7b95;
 }
 .bottombox {
   border: 1px solid rd;
@@ -257,8 +251,6 @@ footer {
   color: #6c7b95;
   font-family: 'Nunito Sans', sans-serif;
   font-size: 3rem;
-}
-.bottombox {
   display: flex;
   flex-wrap: wrap;
 }
@@ -288,6 +280,11 @@ footer {
     height: 20rem;
   }
 }
+@media (max-width: 800px) {
+  .go {
+    margin-top: 1rem;
+  }
+}
 @media (max-width: 500px) {
   .go {
     display: none;
@@ -305,11 +302,14 @@ footer {
 }
 .button {
   background-color: #6c7b95;
-  font-size: 2.5rem;
+  font-size: 2.9rem;
   width: 50%;
   height: 5rem;
   font-weight: 600;
   border-radius: 4.5rem;
+  text-align: center;
+  padding-top: 1rem;
+  text-decoration: none;
 }
 .button:hover {
   background: rgba(255, 255, 255, 0.486);
@@ -320,6 +320,12 @@ footer {
   color: #6c7b95;
   font-size: 2.6rem;
   margin-bottom: 2%;
+}
+footer {
+  text-align: center;
+  padding: 5%;
+  margin: 5% 35%;
+  color: #6c7b95;
 }
 .about-parent-box {
   display: flex;

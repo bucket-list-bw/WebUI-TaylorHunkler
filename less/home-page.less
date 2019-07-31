@@ -21,12 +21,17 @@
 	background-color: @main-font;
 	width: 48%;
 	padding: 2%;
-	margin-bottom: 2%;
+    margin-bottom: 2%;
+    color:@font-color-main;
+	font-family: @text-font;
+    font-size: 2.8rem;
+    
    	@media @phone {
     display: flex;
     flex-direction:column;
     align-content: center;
     width:80%;
+    
    
 }
     @media @tablet {
@@ -35,12 +40,7 @@
 
 }
    
-   color:@font-color-main;
-	   font-family: @text-font;
-       font-size: 2.8rem;
-     
-       
-    .list{
+   .list{
         margin-top: 8%;
     }
  
@@ -54,22 +54,23 @@ h1{
     margin-bottom: 5%;
     
     @media @phone{
-
-    
         text-align: center;
     }
 	
 }
+
+.img {
+		
+    width:100%;
+    height:auto;
+  
+  }
+  
+
+//bottom content index page
 	
 
- 
-
-	
-
-
-
-	
-	  .bottomboxes{
+.bottomboxes{
 	  
 		
 		font-family: @text-font;
@@ -85,9 +86,7 @@ h1{
 
            
                
-            
-		
-		.box{
+        .box{
 		.textCenter;
       background: @main-font;
 
@@ -95,21 +94,13 @@ h1{
 	  }
 	  }
 	  
-	   .img {
-		
-		width:100%;
-		height:auto;
-	  
-	  }
+	 
+       
+
 	  h2{
 		  margin-bottom: 3%;
 	  }
-	  footer {
-		 .textCenter;
-		  padding: 5%;
-		  margin:5% 35%;
-		  color:@font-color-main;
-	  }
+	  
       
       
       
@@ -123,18 +114,8 @@ h1{
         color:@font-color-main;
         font-family: @text-font;
         font-size: 3rem;
-    
-           
-     
-      }	
-      
-
-  
-
-  .bottombox{
-     
-      display: flex;
-      flex-wrap: wrap;
+        display: flex;
+        flex-wrap: wrap;
      
  
   
@@ -147,12 +128,10 @@ h1{
       padding-top: 1.2rem;
       background: @text-font;
   
-
-  
     }
   
     }
-
+//bottom images
    .imgbtm {
       width:30%;
       height: 14rem;
@@ -175,7 +154,12 @@ h1{
     ;
 }
   }
+
+  //bottom image text
     .go{
+       @media @tablet{
+           margin-top:1rem;
+       } 
         @media @phone {
            display: none;
         }
@@ -201,11 +185,14 @@ h1{
     }
     .button{
         background-color:#6c7b95; 
-        font-size: 2.5rem;
+        font-size: 2.9rem;
         width: 50%;
         height: 5rem;
         font-weight: 600;
         border-radius: 4.5rem;
+        text-align: center;
+        padding-top: 1rem;
+        text-decoration: none;
      &:hover{
         background:rgba(255, 255, 255, 0.486)  ;
         color: @font-color;
@@ -221,7 +208,12 @@ h1{
         margin-bottom: 2%;
     }
      
-
+footer {
+		 .textCenter;
+		  padding: 5%;
+		  margin:5% 35%;
+		  color:@font-color-main;
+	  }
 
     //About page
         
@@ -268,7 +260,7 @@ h1{
    }	
 
 
-
+//about images
 
 .imgHead {
 
