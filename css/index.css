@@ -255,7 +255,7 @@ h1 {
 }
 h2 {
   font-weight: 600;
-  margin-bottom: 7%;
+  margin-bottom: 2%;
 }
 @media (max-width: 500px) {
   h2 {
@@ -347,9 +347,9 @@ h2 {
   margin-bottom: 5rem;
   color: #464159;
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .team {
-    margin-bottom: 0rem;
+    font-size: 6rem;
   }
 }
 .about-parent-box {
