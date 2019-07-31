@@ -327,11 +327,11 @@ h2 {
   font-size: 2.6rem;
   margin-bottom: 2%;
 }
-footer {
+.team {
+  font-size: 8rem;
   text-align: center;
-  padding: 5%;
-  margin: 5% 35%;
-  color: #6c7b95;
+  margin-bottom: 5rem;
+  color: #464159;
 }
 .about-parent-box {
   display: flex;
@@ -356,6 +356,10 @@ footer {
   font-family: 'Nunito Sans', sans-serif;
   font-size: 3rem;
 }
+.about-parent-box .abox h1 {
+  margin-bottom: 0rem;
+  font-size: 4rem;
+}
 @media (max-width: 800px) {
   .about-parent-box .abox {
     text-align: center;
@@ -368,7 +372,47 @@ footer {
   padding: 2%;
   margin-bottom: 2%;
 }
+@media (max-width: 500px) {
+  .boxI {
+    margin-top: 2%;
+  }
+}
 .imgHead {
   width: 80%;
   height: auto;
+}
+@media (max-width: 500px) {
+  .imgHead {
+    width: 100%;
+  }
+}
+footer {
+  border-top: 1px solid black;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  margin-top: 8rem;
+  color: #464159;
+}
+footer nav {
+  font-size: 1.6rem;
+  margin-top: 0.4rem;
+}
+.foot {
+  font-size: 2rem;
+}
+footer {
+  border-top: 1px solid black;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  margin-top: 8rem;
+  color: #464159;
+}
+footer nav {
+  font-size: 1.6rem;
+  margin-top: 0.4rem;
+}
+.foot {
+  font-size: 2rem;
 }

@@ -212,15 +212,17 @@ h1{
         margin-bottom: 2%;
     }
      
-footer {
-		 .textCenter;
-		  padding: 5%;
-		  margin:5% 35%;
-		  color:@font-color-main;
-	  }
+
 
     //About page
         
+.team{
+    font-size:8rem;
+    text-align: center;
+    margin-bottom: 5rem;
+    color:@font-color;
+}
+
 .about-parent-box{
 	display:flex;
 	flex-wrap: wrap;
@@ -235,17 +237,23 @@ footer {
     align-content: center;
     
     
+    
 	}
 
  .abox {
 	background-color: @main-font;
 	width: 48%;
 	padding: 2%;
-	margin-bottom: 2%;
+    margin-bottom: 2%;
+    
    
     color:@font-color-main;
 	   font-family: @text-font;
        font-size: 3rem;
+       h1{
+           margin-bottom:0rem;
+           font-size:4rem;
+       }
   
 
        @media @tablet {
@@ -260,7 +268,10 @@ footer {
 	background-color: @main-font;
 	width: 48%;
 	padding: 2%;
-	margin-bottom: 2%;
+    margin-bottom: 2%;
+    @media @phone{
+        margin-top:2%;
+    }
    }	
 
 
@@ -270,6 +281,26 @@ footer {
 
     width:80%;
     height:auto;
-      
+      @media @phone{
+          width:100%;
+      }
 }
   
+footer {
+    border-top: 1px solid black;
+    padding-top:2rem;
+    padding-bottom:2rem;
+	.textCenter;
+	 margin-top:8rem;
+    color:@font-color;
+    
+ nav{ 
+     font-size:1.6rem;
+     margin-top:.4rem;
+
+}    
+	  }
+.foot{
+    font-size: 2rem;
+}
+
