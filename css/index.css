@@ -164,8 +164,7 @@ header nav a {
   color: #464159;
 }
 header nav a:hover {
-  background: rgba(255, 255, 255, 0.486);
-  color: black;
+  transform: scale(1.1);
 }
 @media (max-width: 500px) {
   header nav {
@@ -215,6 +214,11 @@ h1 {
   font-size: 5.8rem;
   margin-bottom: 5%;
 }
+@media (max-width: 500px) {
+  h1 {
+    text-align: center;
+  }
+}
 .bottomboxes {
   font-family: 'Nunito Sans', sans-serif;
   color: #6c7b95;
@@ -254,15 +258,16 @@ footer {
 .bottombox .bottomdiv {
   border: 1px solid black;
   width: 50%;
-  height: 27rem;
+  height: 29rem;
   text-align: center;
-  padding-top: 0.7rem;
+  padding-top: 1.2rem;
   background: 'Nunito Sans', sans-serif;
 }
 .imgbtm {
   width: 30%;
   height: 14rem;
   margin-top: 5%;
+  margin-bottom: 2%;
 }
 @media (max-width: 800px) {
   .stay {
