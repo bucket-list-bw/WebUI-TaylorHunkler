@@ -350,20 +350,34 @@ h2 {
 .about-parent-box .abox {
   background-color: #c7f0db;
   width: 48%;
-  padding: 2%;
+  padding: 1%;
   margin-bottom: 2%;
   color: #6c7b95;
   font-family: 'Nunito Sans', sans-serif;
   font-size: 3rem;
 }
 .about-parent-box .abox h1 {
-  margin-bottom: 0rem;
+  margin-bottom: 2rem;
   font-size: 4rem;
+}
+@media (max-width: 800px) {
+  .about-parent-box .abox h1 {
+    font-size: 3rem;
+  }
 }
 @media (max-width: 800px) {
   .about-parent-box .abox {
     text-align: center;
     font-size: 2rem;
+  }
+}
+@media (max-width: 500px) {
+  .about-parent-box .abox {
+    padding-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 100%;
   }
 }
 .boxI {
@@ -375,6 +389,8 @@ h2 {
 @media (max-width: 500px) {
   .boxI {
     margin-top: 2%;
+    width: 100%;
+    padding: 6rem;
   }
 }
 .imgHead {
@@ -384,6 +400,7 @@ h2 {
 @media (max-width: 500px) {
   .imgHead {
     width: 100%;
+    padding-top: 5rem;
   }
 }
 footer {
@@ -397,6 +414,10 @@ footer {
 footer nav {
   font-size: 1.6rem;
   margin-top: 0.4rem;
+}
+footer nav a:hover {
+  background: #6c7b95;
+  color: 'Nunito Sans', sans-serif;
 }
 .foot {
   font-size: 2rem;
