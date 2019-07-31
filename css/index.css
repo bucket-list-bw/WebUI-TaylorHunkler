@@ -157,7 +157,7 @@ header nav {
   background-color: #c7f0db;
   font-size: 3.2rem;
   border-bottom: 1px solid black;
-  padding: 3% 0;
+  padding: 1%;
 }
 header nav a {
   color: #464159;
@@ -172,10 +172,20 @@ header nav a:hover {
     align-items: center;
   }
 }
+header .blhead {
+  text-align: center;
+  width: 100%;
+  padding-top: 1.5rem;
+  height: 10rem;
+}
+header .blhead h1 {
+  font-size: 8rem;
+}
 .parent-box {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding: 2%;
 }
 @media (max-width: 500px) {
   .parent-box {
@@ -230,8 +240,8 @@ h1 {
 }
 @media (max-width: 500px) {
   .bottomboxes {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 }
 .bottomboxes .box {
@@ -327,7 +337,7 @@ h2 {
   margin-bottom: 4rem;
 }
 .team {
-  font-size: 8rem;
+  font-size: 7rem;
   text-align: center;
   margin-bottom: 5rem;
   color: #464159;
