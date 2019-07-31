@@ -9,8 +9,8 @@
 		display: flex;
 	flex-direction:column;
     align-content: center;
-    
-	}
+    padding:1rem;
+    }
 
 
 
@@ -75,11 +75,22 @@ h1{
 		font-family: @text-font;
 		color:@font-color-main;
 	
-		padding: 1%;
+        padding: 1%;
+        @media @phone{
+
+            padding-left: 2rem;
+            padding-right: 2rem;
+               
+            }
+
+           
+               
+            
 		
 		.box{
 		.textCenter;
-	  background: @main-font;
+      background: @main-font;
+
 			  
 	  }
 	  }
@@ -99,6 +110,8 @@ h1{
 		  margin:5% 35%;
 		  color:@font-color-main;
 	  }
+      
+      
       
       .bottombox {
          
@@ -177,7 +190,7 @@ h1{
     
         
     }
-    
+    //sign up
 
     .signup{
        display: flex;
@@ -201,11 +214,7 @@ h1{
 }
     }
     
-    
-        
-    
-
-    .signuphead{
+        .signuphead{
         text-align: center;
         color:@font-color-main;
         font-size: 2.6rem;
@@ -221,11 +230,14 @@ h1{
 	flex-wrap: wrap;
     justify-content:space-between;
    
+   padding-left: 5%;
+   padding-right: 5%;
 	
 	@media @phone {
 		display: flex;
 	flex-direction:column;
     align-content: center;
+    
     
 	}
 
@@ -238,8 +250,7 @@ h1{
     color:@font-color-main;
 	   font-family: @text-font;
        font-size: 3rem;
-
-       
+  
 
        @media @tablet {
         text-align: center;

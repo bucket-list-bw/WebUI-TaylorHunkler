@@ -183,6 +183,7 @@ header nav a:hover {
     display: flex;
     flex-direction: column;
     align-content: center;
+    padding: 1rem;
   }
 }
 .parent-box .box {
@@ -223,6 +224,12 @@ h1 {
   font-family: 'Nunito Sans', sans-serif;
   color: #6c7b95;
   padding: 1%;
+}
+@media (max-width: 500px) {
+  .bottomboxes {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 }
 .bottomboxes .box {
   text-align: center;
@@ -318,6 +325,8 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 @media (max-width: 500px) {
   .about-parent-box {
