@@ -214,9 +214,9 @@ h1{
      
 
 
-    //About page
+ //About page
         
-.team{
+ .team{
     font-size:8rem;
     text-align: center;
     margin-bottom: 5rem;
@@ -243,7 +243,7 @@ h1{
  .abox {
 	background-color: @main-font;
 	width: 48%;
-	padding: 2%;
+	padding: 1%;
     margin-bottom: 2%;
     
    
@@ -251,15 +251,31 @@ h1{
 	   font-family: @text-font;
        font-size: 3rem;
        h1{
-           margin-bottom:0rem;
+           margin-bottom:2rem;
            font-size:4rem;
+           @media @tablet {
+               font-size:3rem;
+           }
        }
   
 
        @media @tablet {
         text-align: center;
         font-size: 2rem;
+        
     
+    }
+
+    @media @phone{
+        
+        padding-bottom:3rem;
+        display: flex;
+    flex-direction:column;
+    align-content: center;
+    
+    width:100%;
+
+
     }
     }
     }
@@ -271,19 +287,31 @@ h1{
     margin-bottom: 2%;
     @media @phone{
         margin-top:2%;
+        width:100%;
+        padding:6rem;
+
+       
     }
    }	
 
 
 //about images
-
+ 
 .imgHead {
+    
 
     width:80%;
     height:auto;
       @media @phone{
           width:100%;
-      }
+         
+          padding-top:5rem;
+          
+         
+     
+
+
+    }
 }
   
 footer {
@@ -293,12 +321,20 @@ footer {
 	.textCenter;
 	 margin-top:8rem;
     color:@font-color;
+   
     
  nav{ 
      font-size:1.6rem;
      margin-top:.4rem;
 
+     a{
+        
+      &:hover{
+          background: @font-color-main;
+          color:@text-font;
+      }
 }    
+ }
 	  }
 .foot{
     font-size: 2rem;
