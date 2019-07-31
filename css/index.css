@@ -335,13 +335,6 @@ footer {
   font-family: 'Nunito Sans', sans-serif;
   font-size: 3rem;
 }
-@media (max-width: 500px) {
-  .about-parent-box .abox {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-  }
-}
 @media (max-width: 800px) {
   .about-parent-box .abox {
     text-align: center;
