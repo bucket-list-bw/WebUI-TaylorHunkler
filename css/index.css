@@ -148,19 +148,21 @@ body {
 }
 h1,
 h2 {
-  color: #464159;
+  color: #0051A7;
 }
 header nav {
   display: flex;
   justify-content: space-around;
-  margin-bottom: 5%;
+  margin-bottom: 2%;
   background-color: #c7f0db;
-  font-size: 3.2rem;
+  font-size: 3rem;
   border-bottom: 1px solid black;
-  padding: 1%;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 header nav a {
-  color: #464159;
+  color: #4d5563;
+  font-family: 'Karma', serif;
 }
 header nav a:hover {
   transform: scale(1.1);
@@ -175,11 +177,13 @@ header nav a:hover {
 header .blhead {
   text-align: center;
   width: 100%;
-  padding-top: 1rem;
+  padding-top: 1.8rem;
   height: 10rem;
 }
 header .blhead h1 {
-  font-size: 8rem;
+  font-family: 'Karma', serif;
+  font-size: 8.5rem;
+  color: #0051A7;
 }
 @media (max-width: 500px) {
   header .blhead h1 {
@@ -205,7 +209,7 @@ header .blhead h1 {
   width: 48%;
   padding: 2%;
   margin-bottom: 2%;
-  color: #6c7b95;
+  color: #4d5563;
   font-family: 'Nunito Sans', sans-serif;
   font-size: 2.8rem;
 }
@@ -225,6 +229,9 @@ header .blhead h1 {
 .parent-box .box .list {
   margin-top: 8%;
 }
+.parent-box .box li {
+  color: #4d5563;
+}
 h1 {
   font-size: 4.5rem;
   margin-bottom: 5%;
@@ -240,7 +247,7 @@ h1 {
 }
 .bottomboxes {
   font-family: 'Nunito Sans', sans-serif;
-  color: #6c7b95;
+  color: #4d5563;
   padding: 1%;
 }
 @media (max-width: 500px) {
@@ -254,8 +261,10 @@ h1 {
   background: #c7f0db;
 }
 h2 {
+  font-family: 'Nunito Sans', sans-serif;
   font-weight: 600;
   margin-bottom: 2%;
+  font-family: 'Karma', serif;
 }
 @media (max-width: 500px) {
   h2 {
@@ -268,8 +277,8 @@ h2 {
   width: 100%;
   padding: 1%;
   margin-bottom: 2%;
-  color: #6c7b95;
-  font-family: 'Nunito Sans', sans-serif;
+  color: #4d5563;
+  font-family: 'Karma', serif;
   font-size: 3rem;
   display: flex;
   flex-wrap: wrap;
@@ -321,7 +330,8 @@ h2 {
   align-items: center;
 }
 .button {
-  background-color: #6c7b95;
+  font-family: 'Karma', serif;
+  background-color: #0051A7;
   font-size: 2.9rem;
   width: 50%;
   height: 5rem;
@@ -330,22 +340,27 @@ h2 {
   text-align: center;
   padding-top: 1rem;
   text-decoration: none;
+  color: white;
 }
 .button:hover {
-  background: rgba(255, 255, 255, 0.486);
-  color: #464159;
+  background: grey;
+  color: #0051A7;
 }
 .signuphead {
+  font-family: 'Karma', serif;
   text-align: center;
-  color: #6c7b95;
-  font-size: 2.6rem;
+  color: #4d5563;
+  font-size: 3rem;
   margin-bottom: 4rem;
+  font-weight: 500;
 }
 .team {
+  font-family: 'Karma', serif;
   font-size: 7rem;
   text-align: center;
   margin-bottom: 5rem;
-  color: #464159;
+  color: #0051A7;
+  border-bottom: 1px solid black;
 }
 @media (max-width: 800px) {
   .team {
@@ -374,7 +389,7 @@ h2 {
   padding: 1%;
   margin-bottom: 2%;
   border-bottom: 1px dashed black;
-  color: #6c7b95;
+  color: #4d5563;
   font-family: 'Nunito Sans', sans-serif;
   font-size: 3rem;
 }
@@ -432,14 +447,17 @@ footer {
   padding-bottom: 2rem;
   text-align: center;
   margin-top: 8rem;
-  color: #464159;
+  color: #0051A7;
 }
 footer nav {
   font-size: 1.6rem;
   margin-top: 0.4rem;
 }
+footer nav a {
+  color: #4d5563;
+}
 footer nav a:hover {
-  background: #6c7b95;
+  background: #4d5563;
   color: 'Nunito Sans', sans-serif;
 }
 .foot {
@@ -451,7 +469,7 @@ footer {
   padding-bottom: 2rem;
   text-align: center;
   margin-top: 8rem;
-  color: #464159;
+  color: #0051A7;
 }
 footer nav {
   font-size: 1.6rem;
