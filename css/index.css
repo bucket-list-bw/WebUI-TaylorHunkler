@@ -218,7 +218,7 @@ header .blhead h1 {
     display: flex;
     flex-direction: column;
     align-content: center;
-    width: 80%;
+    width: 100%;
   }
 }
 @media (max-width: 800px) {
