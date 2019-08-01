@@ -244,6 +244,7 @@ h1 {
 .img {
   width: 100%;
   height: auto;
+  border-radius: 2rem;
 }
 .bottomboxes {
   font-family: 'Nunito Sans', sans-serif;
@@ -272,7 +273,6 @@ h2 {
   }
 }
 .bottombox {
-  border: 1px solid rd;
   background-color: #c7f0db;
   width: 100%;
   padding: 1%;
@@ -307,6 +307,7 @@ h2 {
   .stay {
     width: 90%;
     height: 20rem;
+    border-radius: 0.5rem;
   }
 }
 @media (max-width: 800px) {
