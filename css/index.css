@@ -426,9 +426,11 @@ h2 {
 }
 @media (max-width: 500px) {
   .boxI {
-    margin-top: 2%;
+    margin-top: 0%;
     width: 100%;
-    padding: 6rem;
+    padding-right: 6rem;
+    padding-left: 6rem;
+    padding-bottom: 4rem;
   }
 }
 .imgHead {
