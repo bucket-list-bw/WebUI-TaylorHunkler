@@ -203,6 +203,18 @@ header .blhead h1 {
     align-content: center;
     padding: 1rem;
   }
+  .parent-box .box:nth-of-type(1) {
+    order: 1;
+  }
+  .parent-box .box:nth-of-type(2) {
+    order: 2;
+  }
+  .parent-box .box:nth-of-type(3) {
+    order: 4;
+  }
+  .parent-box .box:nth-of-type(4) {
+    order: 3;
+  }
 }
 .parent-box .box {
   background-color: #c7f0db;
@@ -219,6 +231,7 @@ header .blhead h1 {
     flex-direction: column;
     align-content: center;
     width: 100%;
+    margin-bottom: 3rem;
   }
 }
 @media (max-width: 800px) {
