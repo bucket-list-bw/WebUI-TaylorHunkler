@@ -307,7 +307,6 @@ h2 {
   .stay {
     width: 90%;
     height: 20rem;
-    border-radius: 0.5rem;
   }
 }
 @media (max-width: 800px) {
