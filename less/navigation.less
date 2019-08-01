@@ -6,17 +6,18 @@
             nav {
                 display: flex;
                 justify-content: space-around;
-                 margin-bottom: 5%;
+                 margin-bottom: 2%;
                 
                 background-color: @main-font;
-                font-size: 3.2rem;
+                font-size: 3rem;
                 border-bottom: 1px solid black;
-                padding:1%;
+                padding-top:2%;
+                padding-bottom:2%;
                 
                 
                 a{
-                    color:@font-color;
-                    
+                    color:@font-color-main;
+                    font-family: @f7;
                     
                     // &:hover{
                     //     background:rgba(255, 255, 255, 0.486) ;
@@ -44,12 +45,15 @@
               .blhead{
                 text-align: center;
                 width:100%;
-                padding-top: 1rem;
+                padding-top: 1.8rem;
                 height: 10rem;
+               
                 
                 
                 h1{
-                   font-size: 8rem; 
+                    font-family: @f7;
+                   font-size: 8.5rem; 
+                   color:@font-color;
                    @media @phone{
                    font-size:6rem;
                    }
